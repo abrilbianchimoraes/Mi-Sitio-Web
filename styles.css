@@ -1,0 +1,183 @@
+body{
+    padding: 10%;
+    background-image: url('fondo2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#first {
+    font-size: 400%;
+    color: rgb(163, 61, 120);
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+#titulo{
+    font-size: 300%;
+    color: rgb(163, 61, 120);
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+.text1 {
+    text-align: center;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    color: rgb(184, 74, 138);
+    font-size: 200%;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+button{
+    background:rgb(184, 74, 138);
+    color:rgb(255, 164, 219);
+    border:none;
+    position:relative;
+    height:60px;
+    font-size:medium;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+  }
+
+  button:hover{
+    background:rgb(255, 125, 201);
+    color:rgb(255, 9, 157) ;
+  }
+
+.about-container {
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(184, 74, 138);
+    padding-bottom: 20px;
+    font-size:large;
+    background-color: rgba(184, 74, 138, 0.11);
+}
+
+h2{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(97, 4, 58);
+}
+
+.imagen-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.fotoselfie {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#hijoss {
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(97, 4, 58);
+    padding: 20px;
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    max-width: 800px;
+    margin: auto; 
+    font-family: "Lilita One", sans-serif;
+    font-size:medium;
+    color: rgb(184, 74, 138);
+    background-color: rgba(184, 74, 138, 0.096);
+}
+
+
+.item1, .item2 {
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
+}
+
+
+.item1 {
+    flex-direction: row; 
+}
+
+
+.item2 {
+    flex-direction: row; 
+}
+
+
+.item1 img, .item2 img {
+    width: 150px; 
+    height: auto;
+}
+
+
+.item1 p, .item2 p {
+    margin: 0;
+}
+    
+#cierrehijos{
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lilita One", sans-serif;
+    font-size:x-large;
+    color: rgb(184, 74, 138);
+    padding: 50px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+#freetime{
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(97, 4, 58);
+    padding: 2%;
+}
+.freet{
+    max-width: 700px;
+    margin: auto; 
+    font-family: "Lilita One", sans-serif;
+    font-size:medium;
+    color: rgb(184, 74, 138);
+    background-color: rgba(184, 74, 138, 0.096);
+    text-align: center;
+}
+
+.sustostream{
+    width: 500px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#redes{
+    text-align: center;
+    margin: 0 auto;
+    font-family: "Lilita One", sans-serif;
+    color: rgb(97, 4, 58);
+    padding: 20px;
+}
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+#redes{
+    padding-top: 100px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
